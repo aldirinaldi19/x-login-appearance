@@ -1,0 +1,270 @@
+body {
+  background-color: rgb(153, 153, 153);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: Arial;
+}
+
+.container {
+  width: 600px;
+  height: 650px;
+  background-color: white;
+  display: flex;
+  position: fixed;
+  border-radius: 20px;
+}
+
+.left-section {
+  width: 120px;
+  height: 650px;
+  border-radius: 20px;
+
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.close-button {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.close:hover {
+  background-color: rgb(207, 207, 207);
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.middle-section {
+  width: 360px;
+  height: 650px;
+  display: block;
+    justify-content: center;
+}
+
+.x-logo {
+  width: 360px;
+  height: 60px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-logo-picture {
+  width: 33px;
+  height: 33px;
+}
+
+.heading-text {
+  width: 360px;
+  height: 60px;
+  position: absolute;
+    top: 70px;
+  display: flex;
+    align-items: center;
+}
+
+.text {
+  font-size: 28px;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.sign-in {
+  width: 360px;
+  height: 110px;
+  position: absolute;
+    top: 140px;
+}
+
+.google {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 360px;
+  height: 40px;
+  position: absolute;
+    top: 5px;
+}
+
+.google-button,
+.apple-button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(207, 207, 207);
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.google-button:hover,
+.apple-button:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.google-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.apple {
+  width: 360px;
+  height: 40px;
+  position: absolute;
+    top: 65px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.apple-text {
+  font-weight: 600;
+}
+
+.divider {
+  width: 360px;
+  height: 30px;
+  position: absolute;
+    top: 260px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    justify-content: center;
+  column-gap: 0.3rem
+}
+
+.divider-text::before,
+.divider-text::after {
+  content: "";
+  height: 2px;
+  width: 130px;
+  background-color: rgb(207, 207, 207);
+  display: block;
+}
+
+.id {
+  width: 360px;
+  height: 70px;
+  position: absolute;
+    top: 300px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id-input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.button {
+  width: 360px;
+  height: 110px;
+  position: absolute;
+    top: 380px;
+}
+
+.next {
+  width: 360px;
+  height: 40px;
+  position: absolute;
+    top: 5px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  opacity: 0.8;
+}
+
+.forgot {
+  width: 360px;
+  height: 40px;
+  position: absolute;
+  top: 65px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.forgot-button:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.right-section {
+  width: 120px;
+  height: 650px;
+  border-radius: 20px;
+
+}
